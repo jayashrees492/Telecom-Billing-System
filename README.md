@@ -1,11 +1,7 @@
-"Demo-Telecom-Billing-System" 
-User Interface: Design a user-friendly interface for customers to view their bills, make payments, and inquire about their usage details.
-Database Management: Implement a database system to store customer information, billing details, usage logs, and payment records efficiently.
-Billing Logic: Develop algorithms to calculate bills based on various factors such as call duration, data usage, SMS count, and any additional services subscribed to by the customer.
-Payment Processing: Integrate payment gateways or methods for customers to make payments securely online or offline and update their payment status in the system.
-Usage Tracking: Implement mechanisms to track and record customer usage in real-time to generate accurate bills and provide insights for future usage optimizations.
-Customer Management: Include features for customer registration, account management, password recovery, and updating personal information.
-Reporting: Generate detailed reports for administrators to analyze revenue, customer trends, service usage patterns, and any billing discrepancies.
-Error Handling: Develop error handling mechanisms to handle exceptions, validate user inputs, and prevent system crashes or data corruption.
-Testing and Debugging: Perform thorough testing and debugging to identify and fix any issues or bugs in the system before deployment.
-Documentation: Create comprehensive documentation including user manuals, system architecture, database schema, and code comments to facilitate maintenance and future enhancements.
+The Telecom Billing System project is a simple software application designed to manage customer information and billing for a telecom company. It allows adding new customers with their name and phone number, and assigns them a unique ID. The system can display detailed information about any customer by entering their ID. Users can add funds to a customer's balance or deduct funds from it, ensuring that deductions do not exceed the available balance. It also provides a feature to display the information of all customers in the system. The project is implemented in C, using basic data structures like arrays and structures. It features a menu-driven interface that is easy to use and navigate. The system does not yet include persistent storage, so customer data is not saved between sessions. Error handling is included to manage invalid inputs. This project is a foundational tool for managing telecom billing operations and can be expanded with more features in the future.
+
+
+
+
+
+
