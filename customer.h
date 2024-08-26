@@ -9,9 +9,12 @@ struct Customer {
     float balance;
 };
 
+// Function prototypes
 void addCustomer(struct Customer customers[], int *numCustomers);
 void displayCustomerInfo(struct Customer customers[], int numCustomers);
 void addFunds(struct Customer customers[], int numCustomers);
 void deductFunds(struct Customer customers[], int numCustomers);
+void loadCustomers(struct Customer customers[], int *numCustomers);
+void saveCustomers(struct Customer customers[], int numCustomers);
 
 #endif

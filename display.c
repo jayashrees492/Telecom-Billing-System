@@ -17,5 +17,6 @@ void displayCustomerInfo(struct Customer customers[], int numCustomers) {
     printf("Customer ID: %d\n", customer.id);
     printf("Name: %s\n", customer.name);
     printf("Phone Number: %s\n", customer.phoneNumber);
-    printf("Balance: $%.2f\n", customer.balance);
+    printf("Balance: Rs.%.2f\n", customer.balance);
 }
+

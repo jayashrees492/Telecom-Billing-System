@@ -26,3 +26,4 @@ void saveCustomers(struct Customer customers[], int numCustomers) {
     fwrite(customers, sizeof(struct Customer), numCustomers, file);
     fclose(file);
 }
+
